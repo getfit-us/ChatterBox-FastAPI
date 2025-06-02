@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  chatterbox:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: chatterbox-fastapi
+    ports:
+      - "8880:8880"
+    volumes:
+      - ../outputs:/app/outputs
+      - ../voices:/app/voices
+      - ../static:/app/static
+    env_file:
+      - ../.env
+    restart: unless-stopped 
