@@ -28,12 +28,14 @@ High-performance Text-to-Speech server with OpenAI-compatible API
 ## Features
 
 - **OpenAI API Compatible**: Drop-in replacement for OpenAI's `/v1/audio/speech` endpoint
-- **Modern Web Interface**: Clean, responsive UI with waveform visualization
 - **Custom Voice Cloning**: '/custom_voice' UI Generate, Sample and save custom voice for reuse in API Calls
 - **Smooth Transitions**: Crossfaded audio segments for seamless listening experience
-- **Web UI Configuration**: Configure all server settings directly from the interface
-- **Dynamic Environment Variables**: Update API endpoint, timeouts, and model parameters without editing files
-- **Server Restart**: Apply configuration changes with one-click server restart
+  
+  (Route implemented UI Coming Soon)
+  ---
+- TODO: **Web UI Configuration**: Configure all server settings directly from the interface
+- TODO: **Dynamic Environment Variables**: Update API endpoint, timeouts, and model parameters without editing files
+- TODO: **Server Restart**: Apply configuration changes with one-click server restart 
 
 
 
